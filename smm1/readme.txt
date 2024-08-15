@@ -1,0 +1,2 @@
+Y = Dash
+B = Jump

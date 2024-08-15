@@ -1,0 +1,256 @@
+M
+N*95
+
+//cape escape
+!tstart
+
+D
+
+#sub cma
+<J
+Y>J*12
+Y<J*9
+XY<
+Y<J*6
+#endsub
+
+#sub cma2
+<J
+Y>J*12
+Y<J*9
+XY<
+Y<J*1
+Y>J*5
+#endsub
+
+
+#sub cma_w
+<J
+Y>J*15
+Y<J*1
+Y>*5
+XY>
+#endsub
+
+
+Y*30
+Y>J*1
+Y>
+X>
+Y>*2
+X>
+Y>J
+Y>*13
+Y<J*13
+Y>J*40
+Y>*40
+
+Y>J*2
+X>J
+Y>J*2
+!call cma
+Y>J*17
+
+// second
+<J
+Y>J*14
+Y<J*1
+Y<*6
+XY<
+Y<J*18
+Y>J*6
+//wall1
+!call cma_w
+Y<J*16
+Y>J*8
+//wall2
+<J
+Y>J*18
+Y<*2
+Y<J*7
+XJ
+YJ
+Y>J*65
+!call cma
+Y>J*10
+X>J
+Y>J*16
+Y>*42
+Y>J*89
+// enter
+!call cma
+Y>J*14
+Y<J*26
+Y>J*45
+!call cma
+Y>J*26
+>J
+Y>J*11
+Y<J*9
+Y>J*37
+>J
+Y>J*43
+// green
+// cape
+>J
+Y>J*2
+Y>*19
+YX
+Y>J*28
+<J
+Y>J*10
+X>J
+Y>J*8
+Y<J*7
+X>J
+Y>J*5
+Y<J*24
+Y>J*2
+Y>*24
+Y>J*21
+!call cma
+Y<J*11
+Y>J*10
+Y>*44
+
+
+//copy----------------
+Y>D
+Y>DJ
+Y>J*14
+Y>*8
+Y<*5
+Y<J*6
+YJ*4
+Y>J*48
+Y>*43
+X>
+Y>*6
+Y>J*11
+X>J
+Y>J*4
+
+!call cma
+
+Y>J*27
+>J
+Y>J*20
+Y<J
+YX<
+!call cma_tower_lw*2
+Y>J*2
+YX>J
+Y>J*21
+Y>*5
+Y<*11
+Y*9
+Y<
+// g
+Y<D
+Y<DJ
+Y<J*3
+Y>J*18
+Y<J*2
+<J
+Y<J*18
+Y<*3
+YX>
+Y<J*20
+// g2
+Y<*5
+Y>*11
+Y>D
+Y>DJ
+Y>J*39
+
+
+#sub cma_tower_lw
+Y<J*19
+Y>J*4
+>J
+Y>J*15
+Y>*4
+Y<*2
+YX>
+#endsub
+
+Y>*40
+Y>J*11
+!call cma
+Y>J*30
+Y>*35
+X>
+Y>*9
+Y>J*19
+!call cma
+Y>J*20
+!call cma
+Y<J*8
+Y>J*10
+<J
+Y>J*15
+Y<*6
+X<
+Y>J*6
+X>
+Y>*2
+Y<*23
+Y>*3
+//wait
+Y>J*23
+X>
+Y>
+Y>*21
+Y>D
+Y>DJ
+Y>*4
+X>
+Y>*5
+Y<*3
+Y>*13
+Y>D
+Y>DJ
+Y>*11
+X>
+Y>*22
+Y<*4
+X
+Y>*43
+Y>J*6
+!call cma
+Y>J*44
+!call cma
+Y>J*17
+<J
+Y<J*13
+Y>J
+Y>*7
+X<
+Y<*4
+Y>J*4
+Y<J*3
+Y>J*6
+X>J
+Y>J*5
+Y>*4
+Y<*33
+X<
+Y<*55
+Y<J*59
+Y>J*5
+>
+Y>*29
+Y>D*1
+Y>DJ
+Y>*4
+X>
+
+// type a
+Y>*36
+Y>J
+Y>*20
+Y<*3
+
+
+
+
