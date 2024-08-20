@@ -1,0 +1,115 @@
+M
+N*95
+!tstart
+Y>*7
+Y<*5
+Y>B*1
+
+#sub fr
+Y>L
+Y>R
+#endsub
+#sub fn
+YL
+YR
+#endsub
+#sub fl
+Y<L
+Y<R
+#endsub
+
+!call fr*10
+>L
+>
+Y>*3
+Y>B*26
+Y<*10
+Y<B*3
+Y>B*5
+Y>*5
+Y<*5
+Y<L
+Y<*3
+Y
+Y>*21
+Y>L
+Y>
+!call fr*14
+!call fn*26
+!call fr*40
+Y>
+>
+Y>
+>*15
+Y>B
+Y<B*16
+<B
+DB
+Y<B*16
+Y<
+Y<B*24
+Y<*12
+Y>*6
+Y>B*29
+Y>*11
+Y>D*3
+
+Y>B*1
+Y>*21
+Y
+Y<*17
+Y<B
+!call fl*22
+#sub wait
+XB<L
+YA>R
+#esub
+!call wait*5
+Y>*36
+Y>B
+YB>*7
+YB>L
+YB>*17
+Y>A
+Y<B*2
+Y<*15
+Y<A
+Y>B*30
+Y>BL
+Y>B*16
+Y>*10
+N*23
+Y>*7
+Y>D
+Y>DB
+Y>D*15
+Y<DB*8
+Y>DB*25
+Y>DBL
+B*3
+
+
+Y<B*15
+Y<*31
+Y<D
+Y<DB
+Y<B*20
+N*20
+Y<B*14
+B
+Y>*10
+>*4
+<*3
+Y>*5
+U
+
+
+
+N*160
+Y<*33
+YD<
+YD<B
+YBD<*26
+Y<LDB
+YBD<*9
+Y<B*3
