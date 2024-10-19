@@ -1,0 +1,323 @@
+ P*1
+ N*21
+ D*1
+ A*1
+ N*78
+!tstart
+Y*30
+
+// 2804 f
+
+// == ROOM1 ==
+Y>*17
+Y>B*16
+Y>*7
+Y<J
+Y*3
+YB*4
+Y>B*8
+>B
+>UB
+Y>B*2
+Y<B*17
+YB
+Y>*10
+Y>B*9
+
+Y<*3
+Y<B*1
+>
+>U
+Y<*7
+Y>*9
+Y>S*1
+Y>*15
+Y>S*20
+Y>*6
+DS
+Y>S*13
+YB*4
+XB
+Y<B*30
+Y<
+X>
+Y<*5
+Y<B*7
+Y<S*6
+Y<*18
+YD*1
+YDB
+YB*14
+Y>
+N*30
+Y>*13
+X>
+Y<*11
+Y<B*20
+Y>B*8
+Y>*2
+
+Y<*3
+// spike
+Y<B*5
+X>B
+Y>B*4
+Y<*30
+Y>
+Y*13
+X
+Y*6
+Y>B*2
+Y>*23
+Y>B*6
+Y>*11
+Y<*10
+YD*39
+YDB*6
+YD<B*2
+Y*15
+X
+Y>*17
+Y>B*12
+Y>*3
+X<
+Y>*6
+Y>B*9
+X<B
+Y>B*16
+Y>S
+// Yoshi out
+Y<S*5
+Y<*23
+Y>B*8
+Y>*20
+Y>B*2
+X<B
+Y>B*11
+Y<*10
+Y>*10
+Y>B*1
+Y>*20
+Y<*19
+Y<B*1
+Y<*6
+// shell pow
+X<
+Y>*5
+Y>B*6
+Y>B*21
+X>B
+Y>B*1
+Y>*9
+Y*2
+YB*2
+Y>B*8
+Y>*16
+X>
+Y>*10
+Y<*13
+Y<B*7
+Y>B*9
+//pow out
+X>
+Y>*14
+Y>B
+X>
+Y>*26
+Y<*9
+Y*13
+YB*9
+XB
+YB*11
+Y*4
+//powget
+X
+Y>*7
+Y*16
+Y>*8
+// pow out
+X>
+Y>*4
+Y>B*11
+X<B
+Y>*5
+Y>B*8
+Y<B*12
+// yoshiout
+Y>S*16
+Y<S*1
+Y<*13
+Y*6
+//Yoshi first frame
+Y<*6
+Y>*4
+Y>B*12
+YB*6
+Y>B*6
+X<B
+Y>*33
+X>
+Y>*7
+// conv
+Y>B*25
+Y>*14
+Y>B*6
+Y>*30
+Y>B*14
+Y<B*9
+X<B
+Y>B*4
+Y<B*10
+YB
+XB// out shell
+Y>B*7
+Y>*13
+Y<*18
+Y*11
+Y<B*9//kick
+Y>B*7
+Y*2
+Y<*1
+X<
+Y<*6
+Y>B*10
+Y>*15
+X> // get shell
+Y>*20
+Y>B*28
+XB // out shell
+Y<B*15
+X<B // get pow
+Y<B*11
+Y>B*9
+X>B // out pow
+Y>B*1
+Y>*17
+
+YD*3
+YD>B
+#sub f
+Y>A
+Y>B
+#esub
+
+
+!call f*14
+Y>*2
+U
+
+
+
+//======================
+//
+//      ROOM 2
+//
+//======================
+N*103
+//
+
+Y>*23
+Y>B
+Y>S*6
+Y>*13
+Y<*25
+
+// WAIT
+Y*8
+YU*127
+Y*2
+// ==
+
+Y<
+Y<B
+UB
+>UB
+Y<B*4
+Y<*10
+Y*15
+Y>*9
+Y*25
+Y>*30
+Y>B*10
+YB*6
+Y<B*17
+Y*10
+Y<
+Y*10
+Y<*4
+Y*93
+YS*36
+Y*8
+Y<*4
+YB*20
+Y>B*11
+Y<B*11
+YB*21
+Y>B*2
+X>B // shell out
+YB*23
+X<B
+Y>B*47
+Y<B*7
+XB
+Y>B*21
+Y>*10
+X>
+Y>*34
+Y>B*19
+X>B // out shell
+Y>B*15
+X<B
+Y>B*41
+X>B // shell get
+Y>B*57
+Y<B*7
+Y>S
+Y>*20
+Y*15
+Y>B // yj
+Y<B*2
+Y>B*2
+X // shell out
+
+Y<*17
+Y>*10
+Y>B*5
+Y*3
+X<
+Y<*1
+Y>B*32
+X>B
+Y>B*15
+X>B
+Y>B*18
+Y>*4
+Y<*25
+Y>*15
+X>
+Y>*3
+Y>B*33
+Y>*9
+Y<*15
+X<
+Y<
+Y
+Y>*46
+YD
+YD>B
+Y>B*10// kick
+Y>*4
+Y>B*52
+Y>*9
+Y>B*10
+Y<B*7
+X<B
+Y<B*8
+Y>B*10
+Y>*13
+Y>B*21
+X<B
+Y<B*2
+Y<*8
+Y>B*6
+Y>*11
