@@ -1,0 +1,9 @@
+P*1
+N*21
+D*1
+A*1
+N*107
+!tstart
+
+#LOAD start ./edit_main.txt
+
