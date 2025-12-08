@@ -1,0 +1,8 @@
+ P*1
+ N*21
+ D*1
+ A*1
+ N*108
+
+// 1503 f
+#load start ./edit_v2.txt
